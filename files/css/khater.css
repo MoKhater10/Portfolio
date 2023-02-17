@@ -119,11 +119,12 @@ h6 {
   .container {
     max-width: 1140px;
   }
+
 }
 
 .row {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
 }
@@ -1495,6 +1496,9 @@ p {
   .header-content {
     padding-left: calc(100% / 5) !important;
   }
+  .header-title{
+    white-space: nowrap;
+  }
 }
 
 .about {
@@ -1578,6 +1582,6 @@ p {
     width: 0;
   }
   to {
-    width: 418px;
+    width: 100%;
   }
 }
